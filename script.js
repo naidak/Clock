@@ -27,4 +27,16 @@ function showTime() {
 
 }
 
+let white = false;
+let ChangeTheme = () => {
+    if (white) {
+        document.body.style.backgroundColor = "#fff";
+        white = false;
+    } else {
+        document.body.style.backgroundColor = "#000";
+        document.getElementById('MyClockDisplay').style.color = "#05a9cd";
+        white = true;
+    }
+}
+
 showTime();
