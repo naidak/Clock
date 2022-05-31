@@ -1,4 +1,4 @@
-function showTime() {
+function showTime=()=> {
     var date = new Date();
     var hours = date.getHours(); // from 0 to 23
     var minutes = date.getMinutes(); // from 0 to 59
